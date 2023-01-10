@@ -4,10 +4,12 @@ all:
       ansible_host: 91.107.150.130
       ip: 91.107.150.130
       access_ip: 91.107.150.130
+      ansible_user: root
     node2:
       ansible_host: 91.107.150.98
       ip: 91.107.150.98
       access_ip: 91.107.150.98
+      ansible_user: root
   children:
     kube_control_plane:
       hosts:
